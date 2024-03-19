@@ -1,0 +1,44 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #121212
+  Circle:#3278ff
+  Rectangle:#ffe58e
+  Union: #79d6ff
+*/
+
+.box {
+  background-color: #121212;
+}
+
+.shape {
+  width: 150px;
+  height: 150px;
+  background-color: #3278ff;
+  border-radius: 50%;
+  position: relative;
+  left: 123px;
+  top: 50px;
+  opacity: 80%;
+}
+
+.shape::after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 125px;
+  background-color: #ffe58e;
+  top: 75px;
+  z-index: -1;
+}
+
+.shape::before {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #79d6ff;
+  border-bottom-left-radius: 100%;
+  top: 75px;
+  z-
+}

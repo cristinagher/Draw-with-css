@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 900px;
+  background-color: #666;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.exercise,
+.box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.box {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.check-container {
+  position: absolute;
+  top: 315px;
+  color: aliceblue;
+}
+
+.solution {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+  opacity: 0;
+  z-index: 1;
+}
+
+.show {
+  opacity: 1;
+}

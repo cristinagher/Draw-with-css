@@ -1,0 +1,25 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  background: #64414b
+  Orange: #ff955f
+  Yellow: #ffd7b4
+*/
+
+.box {
+  background-color: #64414b;
+}
+
+.shape {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 75px;
+  height: 75px;
+  background-color: #ff955f;
+  border-top-left-radius: 100%;
+  box-shadow: 100px 0 #ffd7b4, 200px 0 #ff955f, 300px 0 #ffd7b4, 0 100px #ffd7b4,
+    100px 100px #ff955f, 200px 100px #ffd7b4, 300px 100px #ff955f,
+    0 200px #ff955f, 100px 200px #ffd7b4, 200px 200px #ff955f,
+    300px 200px #ffd7b4;
+}

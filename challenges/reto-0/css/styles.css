@@ -1,0 +1,16 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #5d3a3a
+  Square:#b5e0ba
+*/
+
+.box {
+  background-color: #5d3a3a;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #b5e0ba;
+}
