@@ -12,4 +12,13 @@ Colors:
 }
 
 .leaf {
+  width: 150px;
+  height: 150px;
+  background-color:#f3ac3c ;
+  position:relative;
+  top:80px;
+  left: 200px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius:100px;
+  box-shadow: -50px 0px #998235, -100px 0px #1a4341
 }

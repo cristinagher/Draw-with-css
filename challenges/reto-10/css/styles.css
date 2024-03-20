@@ -10,4 +10,25 @@ Colors:
 }
 
 .shape {
+  width: 100px;
+  height: 100px;
+  background-color:#f7ec7d ;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.shape::after {
+  content: "";
+  position:absolute;
+  top: 100px;
+  left:100px;
+  width: 100px;
+  height: 100px;
+  background-color:#f7ec7d ;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: -200px 0px #f7ec7d  ;
 }

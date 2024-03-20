@@ -11,4 +11,40 @@ Colors:
 }
 
 .head {
+  width: 200px;
+  height: 200px;
+  background-color: #fe5f55 ;
+  position: relative;
+  top: 50px;
+  left:100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius:100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius:50px;
+  overflow: hidden
+
+}
+
+.head::after {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left:20px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff1c1;
+  border-radius: 50%;
+  box-shadow: 100px 0px #fff1c1, 95px -115px 0 17px #fff1c1, 2px -115px 0 17px #fff1c1 
+}
+
+.head::before {
+  content: "";
+  position:absolute;
+  top:170px;
+  left:80px;
+  width: 42px;
+  height: 10px;
+  background-color: #fff1c1;
+  border-radius: 100px;
+
 }

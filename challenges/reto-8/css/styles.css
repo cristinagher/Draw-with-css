@@ -16,8 +16,8 @@ Colors:
   height: 125px;
   background-color: #f3ac3c;
   position: relative;
-  top: 100px;
-  left: 50px;
+  top: 145px;
+  left: 80px;
   border-radius: 50% 0 50% 50%;
   box-shadow: 50px -50px #998235;
 }
@@ -28,7 +28,7 @@ Colors:
   height: 125px;
   background-color: #f3ac3c;
   border-radius: 50%;
-  top: -120px;
-  left: 120px;
+  top: -110px;
+  left: 110px;
   z-index: -1;
 }
